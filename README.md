@@ -1,4 +1,5 @@
 ## Calculator
 
 - Página Web de calculadora feita em javascript.
-- MIT License
+- Open Source (Código aberto)
+- Lincensa MIT
