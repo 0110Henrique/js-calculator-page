@@ -1,0 +1,69 @@
+* {
+    margin: 2;
+    padding: 2;
+}
+.button {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    background-color: rgb(28,28,28);
+    border: 1px solid rgb(0, 0, 1, 1.25);
+    color: white;
+    font-size: 18pt;
+    cursor: pointer;
+    transition: 100ms ease;
+}
+
+.display {
+    background-color: white;
+
+}
+.button:hover {
+  opacity: 50%;
+}
+.display {
+    width: 220px;
+    padding: 10px;
+    font-size: 18pt;
+    border-radius: 5px;
+    margin: 5px;
+}
+.main {
+  position: absolute;
+  background: black;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: auto;
+  border-radius: 5px;
+}
+
+.y1 {
+  background-color: rgb(28,28,28);
+  transition: 100ms ease;
+}
+.y1:hover {
+  opacity: 25%;
+}
+
+.backspace {
+  background-color: red;
+}
+
+body {
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  text-align: center;
+  font: normal 20pt Arial;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 10px 6px 10px black;
+  color: white;
+}
+.y2 {
+  background-color: red;
+}
