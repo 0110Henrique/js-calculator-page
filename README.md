@@ -1,2 +1,2 @@
 # js-calculator-page
-Js calculator
+- MIT License
